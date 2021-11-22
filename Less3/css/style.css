@@ -52,3 +52,7 @@ td:hover {
     font-size: 20px;
     font-weight: bold;
 }
+
+h1:hover {
+    color: #1940FF;
+}
