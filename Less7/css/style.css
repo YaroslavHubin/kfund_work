@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .parent{
@@ -58,7 +59,7 @@ li {
 }
 
 .child-right-img{
-    margin: 60px;
+    margin: 20px 15px 20px 15px;
     height: 480px;
     text-align: center;
 }
@@ -70,7 +71,7 @@ li {
 }
 
 .child-right-1 {
-    margin: 10px;
+    margin: 20px 0 0 0;
     width: 100px;
     height: 100px;
     background-color: black;
@@ -78,4 +79,8 @@ li {
 
 .child-right-1:hover{
     background-color: rgb(141, 20, 197);
+}
+
+p{
+    padding: 10px;
 }
