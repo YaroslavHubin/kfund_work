@@ -60,7 +60,7 @@ li{
 }
 
 .font-icons{
-    width: 50px;
+    width: 50%;
     margin: 0px 0px 20px 0px;
     padding: 0 0 0 30px;
     background-color: rgb(18, 0, 36);
@@ -126,7 +126,7 @@ li{
 }
 
 .text_image img {
-    max-width: 100px;
+    max-width: 100%;
 }
 
 .cards{
@@ -166,8 +166,8 @@ li{
 }
 
 .items_image img{
-    width: 100%;
-    height: 100%;
+    width: 240px;
+    height: 140px;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -180,8 +180,15 @@ li{
 }
 
 .items_label{
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 30px;
     display: inline;
-    margin: 0 0 20px 0;
+    font-weight: 700;
+    margin: 15px 300px 15px 300px;
+    color: black;
+}
+
+.items_text{
+    color: #000;
+    font-size: 20px;
+    margin: 15px 0 15px 310px;
 }
