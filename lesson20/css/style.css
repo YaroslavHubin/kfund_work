@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 30% 20% 50%;
+    grid-gap: 2px
+}
+
+.container>div{
+    background-color: aqua;
+}
+
+#child1{
+    grid-column: 1/4;
+    background: url(https://images.vertigo.com.ua/2018/08/amalgam-main.jpg) no-repeat;
+    background-size: cover;
+}
+
+#child2{
+    grid-area: 1/4/2/7;
+    background: url(https://cs8.pikabu.ru/post_img/big/2016/05/08/9/1462722351198872397.jpg) no-repeat;
+    background-size: cover;
+}
+
+#child3{
+    grid-area: 2/1/3/3;
+    background: url(https://www.kaluga-poisk.ru/system/Cover/images/000/128/898/medium/obj_0_1549348355.jpeg) no-repeat;
+    background-size: cover;
+}
+
+#child4{
+    grid-area: 2/3/3/5;
+    background: url(https://www.afisha.uz/ui/materials/2019/03/0122445_b.jpeg) no-repeat;
+    background-size: cover;
+}
+
+#child5{
+    grid-area: 2/5/3/7;
+    background: url(https://peopletalk.ru/wp-content/uploads/2021/05/11232313.jpg) no-repeat;
+    background-size: cover;
+}
+
+#child6{
+    grid-column: 1/2;
+    background: url(https://i.pinimg.com/originals/70/fb/aa/70fbaa0d06109750b3703c3c103e77f1.png) no-repeat;
+    background-size: cover;
+}
+
+#child7{
+    grid-column: 2/4;
+    background: url(https://pw.artfile.me/wallpaper/08-01-2014/650x407/risovannye-komiksy-pauk-komiks-marvel-ch-780764.jpg) no-repeat;
+    background-size: cover;
+}
+
+#child8{
+    grid-column: 4/6;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhi6V1rnZt8LCnhZIZAHkp-BwhhUqPIP-R9ypkt8FO3OhxTeAxoGPNPY7661Cxa2ByvaQ&usqp=CAU) no-repeat;
+    background-size: cover;
+}
+
+#child9{
+    grid-column: 6/7;
+    background: url(https://img3.goodfon.ru/wallpaper/nbig/c/2e/marvel-comics-spider-man-7056.jpg) no-repeat;
+    background-size: cover;
+}
